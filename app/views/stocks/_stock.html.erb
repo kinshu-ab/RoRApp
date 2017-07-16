@@ -1,0 +1,8 @@
+<% if stock.present? %>
+
+    <strong>Symbol:</strong> <%= stock.ticker %>
+    <strong>Name:</strong> <%= stock.name %>
+    <strong>Price:</strong> <%= stock.price %>
+<% else %>
+    <i>Stock not found</i>
+<% end %>

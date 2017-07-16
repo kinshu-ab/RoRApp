@@ -14,3 +14,7 @@
  *= require_tree .
  *= require_self
  */
+
+body.back {
+    background-image: url(2.jpg);
+}
