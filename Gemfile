@@ -19,6 +19,9 @@ end
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 gem 'devise'
+group :production do
+  gem 'rails_12factor'
+end
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
