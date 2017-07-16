@@ -16,5 +16,5 @@
  */
 
 body.back {
-    background-image: image-url(2.jpg);
+    background-image: url(<%= asset_path '2.png' %>);
 }
